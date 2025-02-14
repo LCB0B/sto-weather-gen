@@ -8,7 +8,7 @@ from sklearn.decomposition import PCA
 
 def neg_log_likelihood(params, y):
     """
-    Compute the negative log-likelihood for an AR(1) model.
+    Compute the negative log-likelihood for an AR(1) model. #add other models later
     
     Model: y[t] = c + a * y[t-1] + ε[t],  ε[t] ~ N(0, σ²)
     
